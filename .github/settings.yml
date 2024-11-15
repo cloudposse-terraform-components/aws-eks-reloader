@@ -2,7 +2,7 @@
 _extends: .github
 repository:
   name: aws-eks-reloader
-  description: This component installs the [Stakater Reloader](https://github
+  description: This component installs the Stakater Reloader for EKS clusters
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
 
