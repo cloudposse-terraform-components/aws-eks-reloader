@@ -5,3 +5,4 @@ repository:
   description: This component installs the [Stakater Reloader](https://github
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
+
