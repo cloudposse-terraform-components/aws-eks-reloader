@@ -5,4 +5,3 @@ repository:
   description: This component installs the Stakater Reloader for EKS clusters
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
-
