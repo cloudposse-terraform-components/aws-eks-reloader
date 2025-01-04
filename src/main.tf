@@ -19,7 +19,7 @@ resource "helm_release" "this" {
   chart            = var.chart
   repository       = var.repository
   version          = var.chart_version
-  namespace        = join("", kubernetes_namespace.default.*.id)
+  namespace        = join("", kubernetes_namespace.default[*].id)
   create_namespace = false
   wait             = var.wait
   atomic           = var.atomic
