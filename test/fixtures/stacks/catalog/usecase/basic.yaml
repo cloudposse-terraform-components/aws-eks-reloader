@@ -1,0 +1,15 @@
+components:
+  terraform:
+    eks/reloader/basic:
+      metadata:
+        component: eks/reloader
+      vars:
+        enabled: true
+        kube_exec_auth_role_arn_enabled: false
+        name: "reloader"
+        kubernetes_namespace: "reloader"
+        create_namespace: true
+        repository: "https://stakater.github.io/stakater-charts"
+        chart: "reloader"
+        chart_version: "v0.0.124"
+        timeout: 180
