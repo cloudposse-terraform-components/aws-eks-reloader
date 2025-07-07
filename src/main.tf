@@ -18,6 +18,7 @@ resource "helm_release" "this" {
   name             = module.this.name
   chart            = var.chart
   repository       = var.repository
+  description      = var.description
   version          = var.chart_version
   namespace        = join("", kubernetes_namespace.default[*].id)
   create_namespace = false
