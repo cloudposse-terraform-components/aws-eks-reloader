@@ -11,7 +11,6 @@ tags:
 This component installs the [Stakater Reloader](https://github.com/stakater/Reloader) for EKS clusters. `reloader` can
 watch `ConfigMap`s and `Secret`s for changes and use these to trigger rolling upgrades on pods and their associated
 `DeploymentConfig`s, `Deployment`s, `Daemonset`s `Statefulset`s and `Rollout`s.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -36,8 +35,8 @@ components:
         timeout: 180
 ```
 
-<!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -124,12 +123,19 @@ components:
 | Name | Description |
 |------|-------------|
 | <a name="output_metadata"></a> [metadata](#output\_metadata) | Block status of the deployed release |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- https://github.com/stakater/Reloader
-- https://github.com/stakater/Reloader/tree/master/deployments/kubernetes/chart/reloader
+
+- [Stakater Reloader](https://github.com/stakater/Reloader) - 
+
+- [Stakater Reloader Helm Chart](https://github.com/stakater/Reloader/tree/master/deployments/kubernetes/chart/reloader) - 
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-eks-reloader&utm_content=)
+
