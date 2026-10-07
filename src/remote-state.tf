@@ -14,7 +14,7 @@ variable "eks" {
 
 module "eks" {
   source  = "cloudposse/stack-config/yaml//modules/remote-state"
-  version = "1.8.0"
+  version = "1.8.1"
 
   component = var.eks_component_name
 
